@@ -1,0 +1,32 @@
+#header {
+  color: brown;
+}
+
+body {
+  background-color: rgb(180, 159, 139);
+}
+
+#first {
+  background-color: burlywood;
+}
+
+#second {
+  background-color: aquamarine;
+}
+
+#third {
+  background-color: aqua;
+}
+
+.class1 {
+  background-color: blueviolet;
+}
+
+#first,
+#second {
+  background-color: chartreuse;
+}
+
+#first > p {
+  font-family: cursive;
+}
