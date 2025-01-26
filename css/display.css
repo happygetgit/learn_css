@@ -1,0 +1,12 @@
+* {
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+}
+
+li {
+  display: inline-block;
+}

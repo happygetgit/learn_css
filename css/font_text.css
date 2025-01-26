@@ -1,0 +1,16 @@
+body {
+  /* font-family: "Times News Roman", monospace, serif; */
+  font-family: "Yuji Mai", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: grey;
+}
+p {
+  font-family: "Times New Roman", monospace, serif;
+}
+a {
+  text-decoration: line-through;
+}

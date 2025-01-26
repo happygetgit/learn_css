@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .box {
-  width: 300px;
-  height: 250px;
-  border: 40px solid rgb(176, 61, 61);
+  width: 200px;
+  height: 200px;
+  border: 20px solid red;
   padding: 30px;
-  margin: 50px;
+  margin: 40px;
 }
