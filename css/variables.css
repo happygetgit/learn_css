@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global variables */
+:root {
+  --primary-text-color: #66b228;
+  --secondary-text-color: #444;
+  --card-background-color: white;
+  --background-color: #eee;
+  --default-margin: 30px;
+}
+
+.dark {
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+  --card-background-color: #333;
+  --background-color: #111;
+}
+
+.container {
+  min-height: 100vh;
+  --my-var: white;
+  padding: 40px;
+  background-color: var(--background-color);
+}
+
+h1 {
+  text-align: center;
+  background-color: var(--card-background-color);
+  color: var(--primary-text-color);
+  margin-bottom: var(--default-margin);
+  padding: 10px;
+  border-radius: 10px;
+  margin-block: 10px;
+}
+
+.box {
+  /* --my-var: red; */
+  padding: var(--default-margin);
+  margin-block: var(--default-margin);
+  border-radius: var(--default-margin);
+  background-color: var(--card-background-color);
+}
+
+h2 {
+  color: var(--primary-text-color);
+  margin-bottom: var(--default-margin);
+  /* background-color: var(--my-var); */
+  min-height: 10vh;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    --my-var: pink;
+  }
+}
